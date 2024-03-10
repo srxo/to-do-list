@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link class="cormorant-font" href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="H1">Todo List Chat Bot</title>
+
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="chat-box">
+            <form class="input-form">
+                <textarea name="query" class="user-input" placeholder="write down your tasks"></textarea>
+                <button class="submit-button" type="submit">submit</button>
+                <img src="images/spinner.gif" class="spinner" style="display: none;">
+
+            </form>
+        </div>
+        <div class="output-box">
+            <textarea id="todo-list" class="user-output" placeholder="Here is your to-do list!"></textarea>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
